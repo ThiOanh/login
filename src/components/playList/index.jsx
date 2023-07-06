@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import '../playList/sign-in.css'
+import "../playList/sign-in.css";
 import axios from "axios";
 
 const REGISTER_STEP = {
